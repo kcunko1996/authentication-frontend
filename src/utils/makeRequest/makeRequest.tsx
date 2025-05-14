@@ -7,7 +7,6 @@ const DEFAULT_CONFIG = {
   baseUrl: process.env.API_URL,
   requiresAuth: true,
 };
-
 export async function makeRequest<T>(
   path: string,
   config?: Config
